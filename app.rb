@@ -37,7 +37,7 @@ get "/events/:id" do
     view "event"
 end
 
-get "/events/:id/rsvps/new" do
+get "/events/:id/rsvps/new" do #figure it out
     @event = events_table.where(id: params[:id]).to_a[0]
     view "new_rsvp"
 end
