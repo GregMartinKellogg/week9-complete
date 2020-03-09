@@ -7,7 +7,7 @@ gem 'sequel'
 gem 'twilio-ruby'
 gem 'bcrypt'
 
-group :develoopment do
+group :development do
     gem 'sqlite3'
 end
 group :production do
